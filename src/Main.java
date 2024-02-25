@@ -6,9 +6,9 @@ public class Main {
 
     static int power(int base , int exponent){
 
-        int result=1 ,i=1;
+        int result=1 ;
 
-        if(i <= exponent) {
+        if(1 <= exponent) {
             //System.out.println("sayinin üst degeri" + exponent);
             result = base*power(base, exponent - 1);;
             // System.out.println("sonuc degeri" + result);
