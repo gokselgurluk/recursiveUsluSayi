@@ -26,7 +26,7 @@ public class Main {
             int result;
             System.out.print("Taban sayisini girin: ");
             int base = userInp.nextInt();
-            System.out.print("Üs sayisini giriniz");
+            System.out.print("Üs sayisini giriniz: ");
             int exponent = userInp.nextInt();
             result = power(base, exponent);
             System.out.println("Sonuç :"+result);
